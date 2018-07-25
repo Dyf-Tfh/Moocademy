@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+# Créer 5 cours qui ont chacun 3 cours
 5.times do |index|
   wof = Cour.create(title: "Cour n#{index + 1}", description: "descriptionn#{index + 1}")
   3.times do |index_lesson|
